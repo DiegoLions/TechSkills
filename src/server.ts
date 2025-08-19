@@ -49,7 +49,6 @@ let usuarios: Users []=[
         }
     } )
 
-
 app.listen(port, () => {
     console.log("API iniciada na porta: " + port);
 });
